@@ -1,9 +1,15 @@
 .super-mario {
     width: 200px;
+    position: absolute;
+    top: 50%;
+    margin-left: 27%;
   }
   
   .goomba {
     width: 100px;
+    position: absolute;
+    top: 100%;
+    margin-left: 30%;
   }
   
   .baloon {
