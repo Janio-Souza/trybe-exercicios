@@ -18,8 +18,17 @@
   
   .speach {
     font-size: 25px;
-  }
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    
   
+  }
   .bowser {
     width: 200px;
   }
+
+  
+
+
+
