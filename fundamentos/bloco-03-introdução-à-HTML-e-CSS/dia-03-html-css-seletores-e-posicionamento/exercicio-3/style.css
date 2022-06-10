@@ -1,5 +1,6 @@
 div:hover {
     border-style: solid;
     border-width: 3px;
+    border-color: red blue brown yellow;
 
 }
