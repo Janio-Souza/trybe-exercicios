@@ -49,3 +49,8 @@ div:nth-last-of-type(1) > h3 {
 
     color: rgb(172, 33, 63);
 }
+
+div:nth-last-of-type(3) {
+
+    font-size: 2em;
+}
