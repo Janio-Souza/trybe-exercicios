@@ -1,6 +1,23 @@
 div:hover {
-    border-style: solid;
-    border-width: 3px;
-    border-color: red blue brown yellow;
+    border: solid red;
+}
 
+div:nth-last-of-type(1) {
+    background-color: rgb(230, 171, 171);
+}
+
+div:nth-last-of-type(2) {
+    background-color: blue;
+}
+
+div:nth-last-of-type(3) {
+    background-color: lime;
+}
+
+div:nth-last-of-type(4){
+    background-color: blueviolet;
+}
+
+div:nth-last-of-type(5) {
+    background-color: aquamarine;
 }
