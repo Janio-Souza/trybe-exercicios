@@ -54,3 +54,8 @@ div:nth-last-of-type(3) {
 
     font-size: 2em;
 }
+
+div:nth-child(2n+1) > h3 {
+
+    font-style: italic;
+}
