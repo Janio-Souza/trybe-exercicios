@@ -8,6 +8,9 @@ h1 {
     height: 50px;
     text-align: center;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
   }
 
   .second {
@@ -24,4 +27,11 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+  }
+
+  li {
+
+    
+    display: block;
+
   }
