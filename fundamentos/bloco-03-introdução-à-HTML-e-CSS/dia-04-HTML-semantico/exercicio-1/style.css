@@ -1,4 +1,4 @@
-h1 {
+h1 , h3 {
     text-align: center;
   }
 
@@ -19,6 +19,9 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    position: relative;
+    /* left: 27%; */
+  
   }
 
   .third {
@@ -27,11 +30,30 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    position: relative;
+    /* left: 27%; */
   }
-
-  li {
+  
+  li:nth-last-child(3) {
 
     
     display: block;
 
+  }
+
+  li:nth-last-child(2) {
+
+    
+    display: inline-block;
+
+  }
+  li:nth-last-child(1) {
+
+    
+    display: inline-block;
+
+  }
+
+  ul , li {
+        text-align: center;
   }
