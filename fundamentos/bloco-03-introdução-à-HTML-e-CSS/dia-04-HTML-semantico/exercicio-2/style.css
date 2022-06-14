@@ -1,3 +1,25 @@
 h1 {
     text-align: center;
 }
+
+.menu {
+
+    display: inline-block;
+    width: 12%;
+        /* border: solid red; */
+    text-emphasis-color: true;
+    height: 40px;
+    font-size: large;
+    font-weight: 700;
+}
+
+ul , li {
+
+    text-align: center;
+}
+
+nav {
+
+    padding-top: 1em;
+    background-color: aquamarine;
+}
