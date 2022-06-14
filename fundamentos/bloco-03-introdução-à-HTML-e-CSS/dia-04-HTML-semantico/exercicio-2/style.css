@@ -23,3 +23,16 @@ nav {
     padding-top: 1em;
     background-color: aquamarine;
 }
+
+.content {
+
+   
+    /* right: 50%; */
+    left: 300px;;
+    width: 60%;
+    /* border: solid red; */
+    position: relative;
+    text-align: left;
+    
+    
+}
