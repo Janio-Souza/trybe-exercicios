@@ -44,3 +44,12 @@ nav {
         
 }
 
+footer {
+
+    background-color: rgb(3, 57, 73);
+    height: 40px;
+    text-align: center;
+    color: white;
+    top: 10px;
+}
+
