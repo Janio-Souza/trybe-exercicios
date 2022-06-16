@@ -7,16 +7,15 @@ h1 , h2 {
     display: inline-block;
     width: 12%;
         /* border: solid red; */
-    text-emphasis-color: true;
     height: 40px;
     font-size: large;
     font-weight: 700;
 }
 
-/* ul , li { 
+#centralizar { 
 
     text-align: center;
-}*/
+}
 
 nav {
 
