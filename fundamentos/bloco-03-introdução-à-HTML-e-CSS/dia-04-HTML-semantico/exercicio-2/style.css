@@ -1,0 +1,55 @@
+#centralizar { 
+
+    text-align: center;
+}
+
+.images {
+
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 300px;
+    
+}
+
+h1 , h2 {
+    text-align: center;
+}
+
+.menu {
+
+    display: inline-block;
+    width: 12%;
+        /* border: solid red; */
+    height: 40px;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+nav {
+
+    padding-top: 1em;
+    background-color: aquamarine;
+}
+
+.content {
+
+   
+    /* right: 50%; */
+    left: 300px;;
+    width: 60%;
+    /* border: solid red; */
+    position: relative;
+    text-align: left;
+        
+}
+
+footer {
+
+    background-color: rgb(3, 57, 73);
+    height: 40px;
+    text-align: center;
+    color: white;
+    top: 10px;
+}
+
