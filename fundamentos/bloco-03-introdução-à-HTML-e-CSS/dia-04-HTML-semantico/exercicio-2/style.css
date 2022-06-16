@@ -3,11 +3,11 @@
     text-align: center;
 }
 
-#images {
+.images {
 
     /* position: relative; */
     /* display: inline-block; */
-    width: 290px;
+    width: 300px;
 
 }
 
