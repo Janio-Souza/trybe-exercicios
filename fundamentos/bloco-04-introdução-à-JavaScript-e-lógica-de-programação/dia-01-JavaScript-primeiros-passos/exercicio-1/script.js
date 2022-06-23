@@ -52,3 +52,15 @@ console.log(divisao);
 
 let modulo = a % b;
 console.log(modulo);
+
+//Exercicio 2.
+
+const c = 15;
+const d = 9;
+
+if (c > d) {
+    console.log("Maior numero: "+ c);
+    
+} else {
+    console.log("Maior numero: "+ d);
+}
