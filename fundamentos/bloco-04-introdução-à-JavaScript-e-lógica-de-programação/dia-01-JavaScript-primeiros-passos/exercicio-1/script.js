@@ -20,3 +20,35 @@ switch (canditato) {
     console.log("Não identificado");
    
 }
+
+// Exercicios do dia
+
+//Exercicio 1.
+
+const a = 5;
+const b = 6;
+
+//Adição (a + b)
+
+let soma = a + b;
+console.log(soma);
+
+//Subtração (a - b)
+
+let subtracao = a - b;
+console.log(subtracao);
+
+//Multiplicação (a * b)
+
+let multiplicao = a * b;
+console.log(multiplicao);
+
+//Divisão (a / b)
+
+let divisao = a / b;
+console.log(divisao);
+
+//Módulo (a % b)
+
+let modulo = a % b;
+console.log(modulo);
