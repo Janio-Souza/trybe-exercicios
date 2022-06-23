@@ -78,3 +78,23 @@ if (e > f && e > g) {
 } else {
     console.log("Ex.3 Maior numero: "+ g);
 }
+
+//Exercicio 4.
+
+const h = 4;
+const j = -8;
+const p = 0;
+
+
+if (h > 0) {
+    console.log('h positivo');
+}
+
+switch (j ) {
+    case j < 0:
+        console.log(''); 
+        break;
+
+    default:
+        break;
+}
