@@ -59,8 +59,22 @@ const c = 15;
 const d = 9;
 
 if (c > d) {
-    console.log("Maior numero: "+ c);
+    console.log("Ex.1 Maior numero: "+ c);
     
 } else {
-    console.log("Maior numero: "+ d);
+    console.log("Ex.1 Maior numero: "+ d);
+}
+
+//Exercicio 3.
+
+const e = 12;
+const f = 8;
+const g = 27;
+
+if (e > f && e > g) {
+    console.log("Ex.3 Maior numero: "+ e);
+} else if (f > e && f > g) {
+    console.log("Ex.3 Maior numero: "+ f);
+} else {
+    console.log("Ex.3 Maior numero: "+ g);
 }
