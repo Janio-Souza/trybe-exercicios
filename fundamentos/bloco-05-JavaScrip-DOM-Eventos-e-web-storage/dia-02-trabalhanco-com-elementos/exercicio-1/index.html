@@ -87,6 +87,15 @@
       imagem.src = 'https://picsum.photos/200';
       sectionMain2.appendChild(imagem);
 
+      const elementUl = document.createElement('ul');
+      sectionMain3.appendChild(elementUl);
+      const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+      for (let num in arrayNumbers) {
+        const elementLi = document.createElement('li');
+        elementLi.innerHTML = arrayNumbers[num];
+        elementUl.appendChild(elementLi);
+      }
 
     </script>
   </body>
