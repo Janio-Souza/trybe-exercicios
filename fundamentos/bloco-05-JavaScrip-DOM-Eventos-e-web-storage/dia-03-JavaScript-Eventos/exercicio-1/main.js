@@ -16,6 +16,10 @@ firstLi.addEventListener('click', addClassTech);
 secondLi.addEventListener('click', addClassTech);
 thirdLi.addEventListener('click', addClassTech);
 
+input.addEventListener('input', function (event) {
+addClassTech = document.querySelector('.tech');
+addClassTech.innerText = event.target.value;
+})
 
 
 
