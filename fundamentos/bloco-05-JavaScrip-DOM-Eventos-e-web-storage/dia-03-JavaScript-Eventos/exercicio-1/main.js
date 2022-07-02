@@ -19,8 +19,20 @@ thirdLi.addEventListener('click', addClassTech);
 input.addEventListener('input', function (event) {
 addClassTech = document.querySelector('.tech');
 addClassTech.innerText = event.target.value;
-})
+});
 
+myWebpage.addEventListener('dblclick' , function () {
+  window.location.replace('https://www.linkedin.com/in/janio-souza-571548225');
+});
+
+myWebpage.addEventListener('mouseover', function(event){
+  event.target.style.color = 'rgb(94, 126, 153)';
+
+});
+
+myWebpage.addEventListener('mouseout', function(event){
+  event.target.style.color = ('unset');
+}); 
 
 
 
