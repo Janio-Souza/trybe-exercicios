@@ -24,6 +24,16 @@ function createDaysOfTheWeek() {
     let dia = decemberDaysList[index];
     let diaLista = document.createElement('li');
     diaLista.innerHTML = dia;
+
+    if (dia === 24 ||dia === 31) {
+
+    } else if (dia === 4 || dia === 11 || dia === 18) {
+
+    } else if (dia === 25) {
+
+    } else {
+
+    }
     
     }
 
