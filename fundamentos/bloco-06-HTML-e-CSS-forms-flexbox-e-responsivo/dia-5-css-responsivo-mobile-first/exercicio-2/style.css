@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .container p {
+    text-align: center;
+  }
+
+  .aside-one h2 {
+    text-align: center;
+  }
+  .aside-two h2 {
+    text-align: center;
+  }
+
+  .main-content h1 {
+    text-align: center;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 800px) {
+    .aside-one h2 {
+    text-align: justify;
+    padding: 35px;
+    }
+    
+  }
