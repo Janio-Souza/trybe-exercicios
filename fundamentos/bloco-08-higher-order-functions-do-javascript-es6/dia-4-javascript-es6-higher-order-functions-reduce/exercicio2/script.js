@@ -69,7 +69,7 @@ const books = [
   const pessoasAutoras = books.map((element) => element.author.name)
     .reduce((acumulador, corrente)=> `${acumulador}, ${corrente}`);
    
-  // console.log(pessoasAutoras);
+  console.log(pessoasAutoras);
 
   // Outra solução mais completa.
 
@@ -84,7 +84,7 @@ const books = [
   // console.log(reduceNames());
 
   const idadesQuandoLancouLivro = books.map((element) => element.releaseYear - element.author.birthYear);
-
+  // [ 43, 62, 31, 45, 39, 38 ]
   function mediaIdades(array) {
    let media = array.reduce((acumul, corrent) => acumul + corrent, 0);
    return media / array.length;
@@ -93,4 +93,10 @@ const books = [
 
   console.log(mediaIdades(idadesQuandoLancouLivro));
 
-  // [ 43, 62, 31, 45, 39, 38 ]
+
+  // 4- Encontre o livro com o maior nome.
+  
+  const bookLengthName = books
+    .reduce((acumul, corrent) => corrent.name.length > acumul.name.length ? corrent.nome : acumul );
+
+  console.log(bookLengthName);
