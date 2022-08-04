@@ -100,3 +100,4 @@ const books = [
     .reduce((acumul, corrent) => corrent.name.length > acumul.name.length ? corrent.nome : acumul );
 
   console.log(bookLengthName);
+  
