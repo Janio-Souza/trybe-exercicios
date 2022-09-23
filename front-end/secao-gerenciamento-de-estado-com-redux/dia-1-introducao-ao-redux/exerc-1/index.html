@@ -24,7 +24,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+        align-items: center;
+      }
+
+      #image {
+        margin:10px;
       }
 
       button {
@@ -34,7 +38,10 @@
     </style>
   </head>
   <body>
-    <h1 id="title">PALETA DE CORES REDUX</h1>
+    <section id="title">
+    <h1>PALETA DE CORES REDUX</h1>
+    <img id="image" src="../exerc-1/images/redux.png" alt="redux logo" width="35" height="30">
+  </section>
     <div id="container">
       <p>Color: <span id="value">white</span></p>
       <button id="next">Next color</button>
