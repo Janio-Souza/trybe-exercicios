@@ -5,8 +5,11 @@
   "main": "bmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bmi": "./bmi"
+    "bmi": "node bmi.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
