@@ -25,4 +25,23 @@ const readFile = async () => {
      }
    });
 
+   app.get('/movies', async (req, res) => {
+    try {
+      const movies = await readFile();
+      res.status(200).json(movies);
+    } catch (err) {
+      res.status(500).send({ message: err.message });
+    }
+  });
+
+  app.post('/movies', async (req, res) => {
+    try {
+      const { movie, price } = req.body;
+      const movies = await readFile();
+    } catch (err) {
+      res.status(500).send({ message: err.message });
+    }
+  });
+  
+
 module.exports = app;
